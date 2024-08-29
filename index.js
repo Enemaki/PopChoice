@@ -42,10 +42,8 @@ async function findNearestMatch(embedding) {
         match_threshold: 0.4,
         match_count: 4
     });
-    console.log(data)
     // Manage multiple returned matches
     const match = data.map(obj => obj.content).join('\n');
-    console.log(match)
     return match
 }
 
