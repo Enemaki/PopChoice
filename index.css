@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000C36;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+}
+
+#headtext {
+    margin-top: -5px;
+    color: white;
+    font-family: Carter One;
+}
+
+.questionDiv {
+    display: flex;
+    justify-content: center;
+    height: 78px;
+    margin: 10px 30px;
+}
+
+p {
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+}
+
+.qtext {
+    color: white;
+    background-color: #3B4877;
+    padding: 8px;
+    font-family: Roboto;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#form2, #form3 {
+    color: #05060C;
+}
+
+.btn {
+    background-color: #51E08A;
+    color: #000C36;
+    font-family: Roboto;
+    width: 300px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#btn-div {
+    height: 50px;
+}
+
+#btn-section {
+    margin: 30px;
+}
+
+#form1 {
+    color: white;
+}
+
+.resultDiv {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 300px;
+}
+
+.result {
+    color: white;
+    font-family: Roboto;
+}
+
+#again-btn {
+    background-color: #51E08A;
+    height: 100px;
+    color: #000C36;
+    font-family: Roboto;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px 30px;
+}
